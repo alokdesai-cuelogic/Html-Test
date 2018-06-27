@@ -1,0 +1,13 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+button{
+	height: 30px;
+	background-color: #a2c73c;
+	font-size:15px;
+}
+
+a{
+	color:#fff;
+}

@@ -8,10 +8,50 @@ button{
 	font-size:15px;
 }
 
+h1 {
+    color:#fff; width: 500px; text-align: center; margin-top: 30px;
+}
+
+.navbar_menu {
+    color:#fff;
+}
+
+.navbar_button_signup {
+    border-radius: 25px; 
+    color:#fff; 
+    margin-top: 10px; 
+    margin-left:15px;
+}
+
 .navbar-fixed-top {
     top: 0;
     border-width: 0 0 0px;
     background-color: rgba(0, 0, 0, 0.0);
+}
+
+.div_banner {
+    background-image: url('../Assets/banner-img.png'); 
+    height:700px; 
+    background-size: cover; 
+    background-position: 0 0; 
+    background-repeat: no-repeat;
+}
+
+.div_banner_button {
+    border-radius: 25px; 
+    color:#fff; 
+    width:500px; 
+    margin-top: 50px; 
+    height: 50px; 
+    font-size:25px;
+}
+
+.gridview {
+    width: 750px; 
+    height: auto; 
+    margin: 0 auto; 
+    position: relative; 
+    padding-top: 150px;
 }
 
 .center {
@@ -42,6 +82,12 @@ button{
     height: 200px;
 }
 
+.footer_social_icon {
+    float: left;
+    width: 33%;
+    height: 200px; 
+}
+
 .column1 {
     float: left;
     width: 33%;
@@ -49,6 +95,9 @@ button{
     height: 200px;
     position: relative;
     background: #a6ce3a;
+    background-color:#a6ce3a; 
+    width:250px; 
+    height:250px;
 }
 
 .column1:after {
@@ -66,14 +115,78 @@ button{
     margin-top: -20px;
 }
 
+#p1 {
+    font-size:15px; 
+    text-align: center; 
+    margin: 0 0 5px; 
+    font-weight: bolder;
+}
+
+#p2 {
+    font-size:13px; 
+    text-align:center; 
+    width: 195px; 
+    margin: 0 auto;
+}
+
+#p3 {
+    font-color:white; 
+    font-size:14px; 
+    text-align:center; 
+    color: white; 
+    width: 195px; 
+    margin: 15px auto;
+}
+
+#p4 {
+    text-align:center; 
+    color: darkolivegreen; 
+    width: 195px; 
+    margin: 15px auto; 
+    font-weight: bolder;
+}
+
+#p5 {
+    font-size:14px; 
+    text-align:center; 
+    width: 195px; 
+    margin: 15px auto; 
+    color: black; 
+    position: absolute;
+    bottom: 10px; 
+    margin-left: 20px;
+}
+
+.column5 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    background-image:url('../Assets/Amanora_JOD_projects_Neo.jpg'); 
+    width:250px; 
+    height:250px; 
+    background-size: cover; 
+    background-position: 0 0; 
+    background-repeat: no-repeat;
+}
+
 .column2 {
     position: relative;
     background: #1d5daa;
     float: left;
     width: 33%;
     padding: 10px;
-    height: 200px;
+    background-color:#1d5daa; 
+    width:250px; 
+    height:250px;
 }
+
+#p6 {
+    font-size:15px; 
+    text-align: center; 
+    margin: 0 0 5px; 
+    font-weight: bolder;
+}
+
 .column2:after {
     top: 100%;
     left: 50%;
@@ -140,5 +253,27 @@ button{
     content: "";
     display: table;
     clear: both;
+}
+
+.copyright_top_border {
+    border-top: 2px solid #0b1014;
+}
+
+.footer_menu_text {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 200px;
+    width:150px; 
+    height:50px; 
+    color:#3e6485
+}
+
+.footer_gridview {
+    width: 450px;
+    height: auto;
+    margin-left: 25px; 
+    position: relative; 
+    padding-top: 100px;
 }
 

@@ -10,7 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body style="height:5000px">
+<body>
 <div>
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.5);">
@@ -20,33 +20,33 @@
       <li><a href="#" style="color:#fff;">Contact Us</a></li>
       <li><a href="#" style="color:#fff;">Blog</a></li>
       <li><a href="#" style="color:#fff;">Login</a></li>
-      <li><button style="border-radius: 25px; color:#fff; margin-top: 10px; margin-left:15px;">Sign Up</button></li>
+      <li><button class="navbar_button_signup">Sign Up</button></li>
     </ul>
   </div>
 </nav>
 </div>
-<div style="background-image: url('./Assets/banner-img.png'); height:700px; background-size: cover; background-position: 0 0; background-repeat: no-repeat;">
+<div class="div_banner">
 <div id="container">
   <img class="center" src="./Assets/banner-graphic.png" />
-  <h1 style="color:#fff; width: 500px; text-align: center; margin-top: 30px;">Lorem ipsum dolor sit amet</h1>
-  <button style="border-radius: 25px; color:#fff; width:500px; margin-top: 50px; height: 50px; font-size:25px;">Lorem Ipsum</button>
+  <h1>Lorem ipsum dolor sit amet</h1>
+  <button class="div_banner_button">Lorem Ipsum</button>
 </div>
 </div>
 
-<div class="gridview" style="width: 750px; height: auto; margin: 0 auto; position: relative; padding-top: 150px;">
+<div class="gridview">
 <div class="row">
-  <div class="column1" style="background-color:#a6ce3a; width:250px; height:250px;">
-    <p style="font-size:15px; text-align: center; margin: 0 0 5px; font-weight: bolder;">Neo Towers</p>
-    <p style="font-size:13px; text-align:center; width: 195px; margin: 0 auto;"><b>1, 2, 3 &amp; 4 BHK apartments from Rs. 50 Lac</b></p>
-    <p style="font-color:white; font-size:14px; text-align:center; color: white; width: 195px; margin: 15px auto;">Get Rs. 1 Lac possession insurance per bedroom in case of delayed delivery.</p>
-    <p style="text-align:center; color: darkolivegreen; width: 195px; margin: 15px auto; font-weight: bolder;">Possession: 1st May 2018.</p>
-    <p style="font-size:14px; text-align:center; width: 195px; margin: 15px auto; color: black; position: absolute;bottom: 10px; margin-left: 20px;">DISCOVER &gt;&gt;</p>
+  <div class="column1">
+    <p id="p1">Neo Towers</p>
+    <p id="p2"><b>1, 2, 3 &amp; 4 BHK apartments from Rs. 50 Lac</b></p>
+    <p id="p3">Get Rs. 1 Lac possession insurance per bedroom in case of delayed delivery.</p>
+    <p id="p4">Possession: 1st May 2018.</p>
+    <p id="p5">DISCOVER &gt;&gt;</p>
   </div>
-  <div class="column" style="background-image:url('./Assets/Amanora_JOD_projects_Neo.jpg'); width:250px; height:250px; background-size: cover; background-position: 0 0; background-repeat: no-repeat;">
+  <div class="column5">
   </div>
-  <div class="column2" style="background-color:#1d5daa; width:250px; height:250px;">
-    <p style="font-size:15px; text-align: center; margin: 0 0 5px; font-weight: bolder;">Gateaway Towers</p>
-    <p style="font-size:13px; text-align:center; width: 195px; margin: 0 auto;"><b>2, 2.5, 3, 3.5 &amp; 4 BHK homes from Rs. 1.29 Cr+</b></p>
+  <div class="column2">
+    <p id="p6">Gateaway Towers</p>
+    <p style="font-size:13px; text-align: center; width: 195px; margin: 0 auto;"><b>2, 2.5, 3, 3.5 &amp; 4 BHK homes from Rs. 1.29 Cr+</b></p>
     <p style="font-color:white; font-size:14px; text-align:center; color: white; width: 195px; margin: 15px auto;">Pay 25% now and 75% at the time of possession</p>
     <p style="font-size:14px; text-align:center; width: 195px; margin: 15px auto; color: black; position: absolute;bottom: 10px; margin-left: 20px;">DISCOVER &gt;&gt;</p>
   </div>
@@ -133,15 +133,40 @@
   </div>
   </div>
 </div>
-<div style="height:400px; background-color:#10151b; margin-top:200px;">
-    <div class="footer_column" style="background-color:#fff;">
-      
+<footer style="background-color:#10151b;">
+<div style="height:300px;  margin-top:200px; overflow: hidden;">
+    <div class="footer_column" align="right">
+        <div style="width:300px; margin-top:50px; margin-right:25px;">
+    	<div>
+    		<img src="./Assets/logo-footer.png" class="center">   
+    	</div>
+    	<div style="margin-top:20px;">
+    		<div class="footer_social_icon"><a href="#"><img src="./Assets/fb.png" class="center"></a></div>
+    		<div class="footer_social_icon"><a href="#"><img src="./Assets/insta.png" class="center"></a></div>
+    		<div class="footer_social_icon"><a href="#"><img src="./Assets/tw.png" class="center"></a></div>
+    	</div>
+    	</div>
     </div>
 
-    <div class="footer_column" style="background-color:#aaa;">
+    <div class="footer_column" align="left">
+    	<div class="footer_gridview">
+    		<div class="row">
+    			<div class="footer_menu_text"><a href="#">About Us</a></div>
+    			<div class="footer_menu_text"><a href="#">Contact Us</a></div>
+    			<div class="footer_menu_text"><a href="#">Terms</a></div>
+    		</div>
+    		<div class="row">
+    			<div class="footer_menu_text"><a href="#">Privacy Policy</a></div>
+    			<div class="footer_menu_text"><a href="#">Blog</a></div>
+    			<div class="footer_menu_text"><a href="#">Careers</a></div>
+    		</div>	
+    	</div>
       
     </div>
-
 </div>
+<div class="copyright_top_border" style="height:50px;"> 
+<div class="footer-copyright text-center py-3" style="color:#3e6485; margin-top: 15px; ">Copyright © 2008 - 2017 all right reserved </div>
+</div>
+</footer>
 </body>
 </html>

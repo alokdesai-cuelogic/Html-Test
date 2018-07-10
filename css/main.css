@@ -169,6 +169,48 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.column6 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    background-image:url('../Assets/Amanora_JOD_projects_Adreno.jpg'); 
+    width:250px; 
+    height:250px;
+}
+
+.column7 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    background-color:#fff; 
+    width:250px; 
+    height:250px;
+}
+
+#p10 {
+    text-align: center; 
+    margin-top: 30px; 
+    color: gray; 
+    font-style: italic; 
+    font-size: 17px;
+}
+
+#p11 {
+    text-align: center; 
+    color: black; 
+    font-style: italic; 
+    margin-top: 10px;
+}
+
+.column8 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    background-image:url('../Assets/Amanora_JOD_projects_gateway.jpg'); 
+    width:250px; 
+    height:250px;
+}
+
 .column2 {
     position: relative;
     background: #1d5daa;
@@ -185,6 +227,33 @@ h1 {
     text-align: center; 
     margin: 0 0 5px; 
     font-weight: bolder;
+}
+
+#p7 {
+    font-size:13px; 
+    text-align: center; 
+    width: 195px; 
+    margin: 0 auto;
+}
+
+#p8 {
+    font-color:white; 
+    font-size:14px; 
+    text-align:center; 
+    color: white; 
+    width: 195px; 
+    margin: 15px auto;
+}
+
+#p9 {
+    font-size:14px; 
+    text-align:center; 
+    width: 195px; 
+    margin: 15px auto; 
+    color: black; 
+    position: absolute;
+    bottom: 10px; 
+    margin-left: 20px;
 }
 
 .column2:after {
@@ -204,12 +273,14 @@ h1 {
 
 .column3 {
     position: relative;
-    background: #4494d1;
     float: left;
     width: 33%;
     padding: 10px;
-    height: 200px;
+    background-color:#4494d1; 
+    width:250px; 
+    height:250px;
 }
+
 .column3:after {
     bottom: 100%;
     left: 50%;
@@ -225,13 +296,40 @@ h1 {
     margin-left: -20px;
 }
 
+#p12 {
+    font-size:15px; 
+    text-align: center; 
+    margin: 30px 0 5px; 
+    font-weight: bolder;
+}
+
+#p13 {
+    font-size:14px; 
+    text-align:center; 
+    width: 150px; 
+    margin: 0 auto;
+}
+
+#p14 {
+    font-size:14px; 
+    text-align:center; 
+    width: 195px; 
+    margin: 15px auto; 
+    color: black; 
+    position: absolute;
+    bottom: 10px; 
+    margin-left: 20px;
+}
+
 .column4 {
     position: relative;
     background: #23b049;
     float: left;
     width: 33%;
     padding: 10px;
-    height: 200px;
+    background-color:#23b049; 
+    width:250px; 
+    height:250px;
 }
 
 .column4:after {
@@ -249,10 +347,135 @@ h1 {
     margin-top: -20px;
 }
 
+#p15 {
+    font-size:15px; 
+    text-align: center; 
+    margin: 0 0 5px; 
+    font-weight: bolder;
+}
+
+#p16 {
+    font-size:13px; 
+    text-align:center; 
+    width: 185px; 
+    margin: 0 auto;
+}
+
+#p17 {
+    font-color:white; 
+    font-size:14px; 
+    text-align:center; 
+    color: white; 
+    width: 140px; 
+    margin: 15px auto;
+}
+
+#p18 {
+    margin: 0 auto; 
+    text-align: center; 
+    color: lightgray;
+}
+
+#p19 {
+    font-size:14px; 
+    text-align:center; 
+    width: 195px; 
+    margin: 15px auto; 
+    color: black; 
+    position: absolute;
+    bottom: 10px; 
+    margin-left: 20px;
+}
+
+.column9 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    background-image:url('../Assets/NEO-Gallery-Image-2.jpg'); 
+    width:250px; 
+    height:250px; 
+    background-size: cover; 
+    background-position: 0 0; 
+    background-repeat: no-repeat;
+}
+
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+#div_middle_info {
+    background-color:#2272bb; 
+    height:450px; 
+    margin-top:150px;
+}
+
+#div_middle_info_p1 {
+    font-size:30px; 
+    color:white; 
+    padding-top:50px; 
+    text-align:center;
+}
+
+#div_middle_info_p2 {
+    font-size:17px; 
+    color:lightgray; 
+    padding-top:50px; 
+    text-align:center; 
+    width: 720px;
+}
+
+#div_middle_info_button {
+    border-radius: 25px; 
+    color:#fff; 
+    width:500px; 
+    margin-top: 50px; 
+    height: 50px; 
+    font-size:25px;
+}
+
+.gridview_footer { 
+    margin: 0 auto; 
+    position: relative; 
+    padding-top: 150px;
+    width: 900px; 
+    height: auto; 
+    margin: 0 auto; 
+    position: relative;
+}
+
+.gridview_footer_column1 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 200px;
+    background-color:#fff;
+}
+
+#gridview_footer_column1_p1 {
+    font-size:20px; 
+    color:black; 
+    text-align:center; 
+    margin-top: 30px;
+}
+
+#gridview_footer_column1_p2 {
+    font-size:15px; 
+    color:gray; 
+    text-align:center; 
+    margin-top: 30px;
+}
+
+#gridview_footer_column1_button {
+    border-radius: 25px; 
+    color:cornflowerblue; 
+    margin-top: 30px; 
+    background-color:white; 
+    border-color: #a2c73c; 
+    padding-left: 30px;
+    padding-right: 30px; 
+    height: 40px;
 }
 
 .copyright_top_border {
